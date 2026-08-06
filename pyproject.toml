@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "google-data-mcp"
+version = "0.1.0"
+description = "MCP server for Google Trends, YouTube listings, Ads Transparency and Play reviews — no API key, no browser"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["mcp", "google-trends", "youtube", "google-ads-transparency", "google-play", "scraping"]
+dependencies = ["mcp>=2.0"]
+
+[project.scripts]
+google-data-mcp = "google_data_mcp.server:main"
+
+[project.urls]
+Homepage = "https://github.com/ducnhd/google-data-mcp"
