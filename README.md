@@ -1,5 +1,7 @@
 # google-data-mcp
 
+[![PyPI](https://img.shields.io/pypi/v/google-data-mcp)](https://pypi.org/project/google-data-mcp/)
+
 An MCP server for four Google data surfaces that answer to plain HTTP — **no API key, no browser,
 no scraping service**:
 
@@ -45,8 +47,9 @@ cannot keep, so there isn't one.
 ## Install
 
 ```bash
-pipx install git+https://github.com/ducnhd/google-data-mcp
-# or: pip install git+https://github.com/ducnhd/google-data-mcp
+pipx install google-data-mcp
+# or: pip install google-data-mcp
+# or, without installing anything: uvx google-data-mcp
 ```
 
 Then register it with your MCP client. For Claude Code:

@@ -17,3 +17,4 @@ google-data-mcp = "google_data_mcp.server:main"
 
 [project.urls]
 Homepage = "https://github.com/ducnhd/google-data-mcp"
+Issues = "https://github.com/ducnhd/google-data-mcp/issues"
