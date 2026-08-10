@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ducnhd/google-data-mcp",
+  "title": "Google data (Trends, YouTube, Ads Transparency, Play)",
+  "description": "Google Trends, YouTube listings, Google Ads Transparency and Google Play reviews over plain HTTP — no API key, no browser. Results are cached on disk and requests paced, because these endpoints rate-limit per IP.",
+  "version": "0.2.0",
+  "repository": {
+    "url": "https://github.com/ducnhd/google-data-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "google-data-mcp",
+      "version": "0.2.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

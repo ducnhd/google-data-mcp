@@ -1,5 +1,7 @@
 # google-data-mcp
 
+<!-- mcp-name: io.github.ducnhd/google-data-mcp -->
+
 [![PyPI](https://img.shields.io/pypi/v/google-data-mcp)](https://pypi.org/project/google-data-mcp/)
 
 An MCP server for four Google data surfaces that answer to plain HTTP — **no API key, no browser,
